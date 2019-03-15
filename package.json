@@ -1,33 +1,33 @@
 {
-  "name": "@callstack/eslint-config",
+  "name": "@uptick/eslint-config",
   "version": "3.0.2",
   "description": "ESLint preset extending Airbnb, Flow, Prettier and Jest",
   "main": "index.js",
-  "repository": "git@github.com:callstack/eslint-config-callstack.git",
-  "author": "Michał Pierzchała <thymikee@gmail.com>",
+  "repository": "git@github.com:uptick-solutions/eslint-config-uptick.git",
+  "author": "Steve Daly <steve@upticksolutions.co>",
   "license": "MIT",
   "keywords": [
     "eslint",
     "eslint config",
-    "callstack"
+    "uptick"
   ],
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^3.0.1",
-    "eslint-plugin-flowtype": "^3.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jest": "^22.0.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.5.1",
-    "prettier": "^1.14.2"
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.3.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
   },
   "peerDependencies": {
     "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "^5.4.0"
+    "eslint": "^5.15.1"
   },
   "scripts": {
     "test": "cd test && yarn && yarn eslint *.js"
